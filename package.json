@@ -1,0 +1,22 @@
+{
+  "name": "three-js-2026",
+  "version": "1.0.0",
+  "description": "Sample three.js site for demonstration in DIGIT 400",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "Elisa Beshero-Bondar",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "vite": "^8.3.4"
+  },
+  "dependencies": {
+    "gh-pages": "^6.1.1"
+  }
+}
