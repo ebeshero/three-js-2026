@@ -9,6 +9,9 @@ lerna-debug.log*
 
 node_modules
 # dist
+# ebb: dist is intentionally NOT ignored, so we can inspect build output together.
+# If you are annoyed by committing build files to main branch, though,
+# uncomment the dist line.
 dist-ssr
 *.local
 
